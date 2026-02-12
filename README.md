@@ -1,16 +1,15 @@
-# fyp
+Crime Rate Prediction App
 
-A new Flutter project.
+A Flutter mobile app that predicts crime rates using ML.
 
-## Getting Started
+##  Features
 
-This project is a starting point for a Flutter application.
+- Crime Prediction - ML-powered risk assessment based on location (latitude/longitude)
+- Crime Reporting - Real-time incident reporting with community feedback
+- Interactive Maps - OpenStreetMap integration with polyline visualization and geocoding
 
-A few resources to get you started if this is your first Flutter project:
+##  Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Frontend: Flutter, OpenStreetMap  
+Backend: Flask API (deployed on Render)  
+ML Model: RandomForestClassifier, Scikit-learn, Pandas
